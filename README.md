@@ -11,10 +11,15 @@
 
 ## PROGRAM:
 import pandas as pd
+
 df = pd.read_csv('data.csv')
+
 print(df.head(10))
+
 print(df.tail())
+
 print("no. of column",len(df.axes[0]))
+
 print("no. of rows",len(df.axes[1]))
 
 ## OUTPUT:
